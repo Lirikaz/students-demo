@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\MeerovichIM\.node\corepack\yarn\1.22.15\bin\yarn.js add express
+
+PATH: 
+  C:\Users\MeerovichIM\algs4\java\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Users\MeerovichIM\Desktop;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft System Center\Service Manager\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;\usr\sbin;C:\Windows\System32;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Go\bin;C:\msys64\mingw64\bin;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\WinMerge;C:\Users\MeerovichIM\algs4\bin;C:\Users\MeerovichIM\algs4\java\bin;C:\Users\MeerovichIM\AppData\Local\Microsoft\WindowsApps;C:\Users\MeerovichIM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MeerovichIM\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\Scripts;C:\Windows\System32;C:\Program Files\nodejs\npm;C:\Program Files\Azure Data Studio\bin;\usr\sbin;C:\Program Files\JetBrains\PhpStorm 2021.3.1\bin;;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\MeerovichIM\go\bin;C:\msys64\mingw64\bin;C:\Users\MeerovichIM\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2021.3.3\bin;;C:\Users\MeerovichIM\.dotnet\tools;C:\Users\MeerovichIM\.dotnet\tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/express: SSL Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE
+      at Request.module.exports.Request.onRequestResponse (C:\Users\MeerovichIM\.node\corepack\yarn\1.22.15\lib\cli.js:141648:24)
+      at ClientRequest.emit (node:events:526:28)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:618:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+      at TLSSocket.socketOnData (node:_http_client:482:22)
+      at TLSSocket.emit (node:events:526:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at TLSSocket.Readable.push (node:internal/streams/readable:228:10)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:190:23)
+
+npm manifest: 
+  {
+    "name": "react-back",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
